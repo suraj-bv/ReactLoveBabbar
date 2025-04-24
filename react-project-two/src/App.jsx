@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className='cards-container'>
-        <UserCard name='Suraj' desc='This is Suraj' image={suraj}/>
+      <UserCard name='Suraj' desc='This is Suraj' image={suraj}/>
         <UserCard name='Vishnu' desc='This is Vishnu' image={vishnu}/>
         <UserCard name='Bharath' desc='This is Bharath' image={bharath}/>
       </div>
