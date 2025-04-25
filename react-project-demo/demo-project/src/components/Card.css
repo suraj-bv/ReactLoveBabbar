@@ -1,0 +1,15 @@
+img {
+    height: 50vh;
+    margin: 30px;
+}
+
+.card-main-container {
+    display: flex;
+}
+
+#card-container {
+    color: #000000;
+    font-size: 20px;
+    margin: 30px;
+    padding: 0;
+}

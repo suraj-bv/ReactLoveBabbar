@@ -1,5 +1,8 @@
 import './App.css'
-import NavBar from './assets/components/NavBar.jsx'
+import Card from './components/Card.jsx'
+import NavBar from './components/NavBar.jsx'
+import hero from './assets/IMG20250319134350 - copy.jpg'
+
 
 function App() {
 
@@ -7,7 +10,7 @@ function App() {
     <>
       <div>
         <NavBar />
-        <NavBar />
+        <Card img={hero}/>
       </div>
     </>
   )
