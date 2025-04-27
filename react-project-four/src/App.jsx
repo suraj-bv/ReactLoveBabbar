@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Button from './components/Button.jsx'
+import Card from '../src/components/Card.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,9 @@ function App() {
       <Button handleClick= {handleClick} text="Click me!!">
         <h1>{count}</h1>
       </Button>
+      <Card name="Card">
+        <h1>Card</h1>
+      </Card>  
     </div>
    
   )
